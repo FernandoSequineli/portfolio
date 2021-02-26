@@ -1,12 +1,183 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" style="scroll-behavior: smooth;">
+
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Fernando Sequineli</title>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1, maximum-scale=1" />
+	<title>Fernando Sequineli</title>
+
+	<link rel="icon" href="assets/images/laptop-coding.png" type="image/x-icon">
+	<script src="bower_components/jquery/dist/jquery.min.js" charset="utf-8"></script>
+	<link rel="stylesheet" href="bower_components/foundation-sites/dist/css/foundation.min.css">
+	<link rel="stylesheet" href="">
+	<script src="bower_components/foundation-sites/dist/js/foundation.min.js" charset="utf-8"></script>
+	<script src="bower_components/normalize-css/normalize.css" charset="utf-8"></script>
+	<script src="bower_components/typed.js/dist/typed.min.js" charset="utf-8"></script>
+	<script src="bower_components/jqcloud2/dist/jqcloud.min.js" charset="utf-8"></script>
+	<link rel="stylesheet" href="bower_components/jqcloud2/dist/jqcloud.min.css">
+	<script src="bower_components/custombox/dist/custombox.min.js"></script>
+	<link href="bower_components/custombox/dist/custombox.min.css" rel="stylesheet">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Maven+Pro:400,500" rel="stylesheet">
+	<link rel="stylesheet" href="assets/fonts/foundation-icons/foundation-icons.css">
+	<link rel="stylesheet" href="assets/styles/styles.css">
 </head>
+
 <body>
-  <h2>working in progress...</h2>
+<a href="#" id="scroll" style="display: none;"><span></span></a>  <!--scroll-to-top-->
+	<div class="wrapper">
+		<div class="thin-bar">
+		</div>
+
+		<section id="about">
+			<div class="row">
+				<div class="small-12 large-8 large-offset-2 columns text-center">
+					<img class="img-circle" src="assets/images/me.png">
+					<div class="details">
+						<h2>Hi, I'm Fernando. I...<br> <span id="writing-text"><span></h2>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="small-12 column">
+					<div class="cta text-center">
+						<a class="my-button cta-button expand form-button" href="https://mail.google.com/mail/?view=cm&fs=1&to=sequineli.fernando@gmail.com" target="_blank">
+						Get In Touch
+						</a>
+					</div>
+				</div>
+				<div class="small-12 column">
+					<div class="my-arrow-div text-center">
+						<a href="https://github.com/FernandoSequineli" target="_blank"><i class="fa fa-github-alt fa-2x"></i></a>
+						<a href="https://www.linkedin.com/in/fernando-sequineli/" target="_blank"><i class="fa fa-linkedin fa-2x"></i></a>
+						<a href="https://wa.me/353896030235" target="_blank"><i class="fa fa-phone-square my-info-icons"></i></a>
+					</div>
+				</div>
+			</div>
+
+		</section>
+
+		<section id="myself">
+			<h2 class="text-center">About Me</h2>
+			<div class="row">
+				<div class="small-12 medium-8 medium-offset-2">
+					<p class="text-center tag-line">
+						I'm Undergraduate Student @NCI pursuing Computing. I'm a Tech Enthusiast, passionate about learning and working with new tech. I love building interesting and amazing products that serve a great deal of purpose. 
+						<br><br>
+						I have practical experience developing software, web and business projects in a team environment while studying at the National College of Ireland.
+						<br><br>
+						I have a keen interest in Web Development/Design and Programming. 
+					</p>
+				</div>
+			</div>
+		</section>
+
+		<section id="experience">
+			<div class="row column">
+				
+				<div class="small-12">
+					<h2 class="text-center">Skills and Tools</h2>
+					<p class="text-center tag-line">“Tell me and I forget. Teach me and I remember. Involve me and I learn.” <br>~ Benjamin Franklin</p>
+				</div>
+			</div>
+
+			<div class="row" id="skillsRow">
+				<div class="small-4 medium-2 columns text-center experience-topics">
+					<p class="hidden">Html</p>
+					<img src="assets/images/skills/html.png"> 
+				</div>
+				<div class="small-4 medium-2 columns text-center experience-topics">
+					<p class="hidden">CSS</p>
+					<img src="assets/images/skills/css.png"> 
+				</div>
+				<div class="small-4 medium-2 columns text-center experience-topics">
+					<p class="hidden">JavaScript</p>
+					<img src="assets/images/skills/javascript.png"> 
+				</div>
+				<div class="small-4 medium-2 columns text-center experience-topics">
+					<p class="hidden">Bootstrap</p>
+					<img src="assets/images/skills/bootstrap3.png"> 
+				</div>
+				<div class="small-4 medium-2 columns text-center experience-topics">
+					<p class="hidden">PHP</p>
+					<img src="assets/images/skills/php.png"> 
+				</div>
+				<div class="small-4 medium-2 columns text-center experience-topics">
+					<p class="hidden">Java</p>
+					<img src="assets/images/skills/java.png"> 
+				</div>
+				
+			</div>
+			<div class="row">
+				<div class="small-4 medium-2 columns text-center experience-topics">
+					<p class="hidden">MySQL</p>
+					<img src="assets/images/skills/mysql.png"> 
+				</div>
+				<div class="small-4 medium-2 columns text-center experience-topics">
+					<p class="hidden">XAMPP</p>
+					<img src="assets/images/skills/xampp.png"> 
+				</div>
+				<div class="small-4 medium-2 columns text-center experience-topics">
+					<p class="hidden">NodeJS</p>
+					<img src="assets/images/skills/node.png"> 
+				</div>
+				<div class="small-4 medium-2 columns text-center experience-topics">
+					<p class="hidden">Git</p>
+					<img src="assets/images/skills/git.png"> 
+				</div>
+				<div class="small-4 medium-2 columns text-center experience-topics">
+					<p class="hidden">Terminal</p>
+					<img src="assets/images/skills/terminal.png"> 
+				</div>
+				<div class="small-4 medium-2 columns text-center experience-topics">
+					<p class="hidden">VS Code</p>
+					<img src="assets/images/skills/visual-studio.png"> 
+				</div>
+				
+			</div>
+
+		</section>
+<!-- WORKING IN PROGRESS / / THIS SPACE IS FOR PROJECTS ;) -->
+		<section id="footer-cta">
+			<h2 class="text-center">Hire Me !!</h2>
+			<h4 class="text-center">I'm actively seeking Entry-Level Web Development Opportunities</h4>
+			<p></p>
+			<div class="row text-center">
+				<div class="small-12 medium-8 medium-offset-2 columns">
+					<p class="text-center">Just drop a mail, Send a whatsapp, Take a look in my Resume or just Add Me to your LinkedIn Network.</p>
+				</div>
+
+				<div class="small-12 large-3 columns" id="startButtonDiv">
+					<a class="my-button form-button" href="mailto:sequineli.fernando@gmail.com" target="_blank">Mail Me</a>
+				</div>
+
+				<div class="small-12 large-3 columns" id="startButtonDiv">
+					<a class="my-button form-button" href="https://wa.me/353896030235" target="_blank">WHATSAPP ME</a>
+				</div>
+
+				<div class="small-12 large-3 columns" id="startButtonDiv">
+					<a class="my-button form-button" href="https://github.com/FernandoSequineli/FernandoSequineli/blob/main/assets/FernandoSequineli%20.pdf" target="_blank">Resume</a>
+				</div>
+
+				<div class="small-12 large-3 columns" id="startButtonDiv">
+					<a class="my-button form-button" href="https://www.linkedin.com/in/fernando-sequineli/" target="_blank">LinkedIn</a>
+				</div>
+
+			</div>
+		</section>
+
+		<footer id="footer">
+			<div class="row text-center">
+				<div class="small-12 medium-6 medium-offset-3 columns">
+					<p id="copyright">With <span class="heart">❤</span> by Fernando Sequineli | 🇧🇷 & 🇮🇹 | Open-Sourced on <a href="https://github.com/FernandoSequineli/portfolio">GitHub</a></p>
+				</div>
+			</div>
+		</footer>
+
+	</div>
+	<script src="assets/scripts/app.js" charset="utf-8"></script>
 </body>
+
 </html>
