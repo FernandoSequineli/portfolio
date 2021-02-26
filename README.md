@@ -1,6 +1,6 @@
-# RaghavK16.github.io
+# FernandoSequineli.github.io
 
-![RaghavK16](https://github.com/raghavk16/raghavk16.github.io/blob/master/website1.png?raw=true)
+![FernandoSequineli](https://github.com/raghavk16/raghavk16.github.io/blob/master/website1.png?raw=true)
 
 * My single-page personal website.
 
