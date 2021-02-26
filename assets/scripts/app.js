@@ -57,7 +57,7 @@ const Portfolio = function() {
 	function typeAnimation() {
 		Typed.new("#writing-text", {
 			strings: [
-				"am an Enthusiastic Computing Student", "like working with new Tools/Technologies.", "like problem solving.", "like coding.", "am constantly envolving!"
+				"am an Enthusiastic Computing Student", "like working with new Tools/Technologies.", "like problem solving.", "like coding.", "am constantly evolving!"
 			],
 			stringsElement: null,
 			// typing speed
