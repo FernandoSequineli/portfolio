@@ -2,7 +2,7 @@
 
 /*********** Global Styles********/
 
-body, html {
+body, html{
 		background-color: #292424;
 }
 
@@ -155,25 +155,30 @@ h1, h2, h3, h4, h5, h6 {
 
 .experience-topics:hover .hidden {
 	visibility: visible;
-	transition-delay: 0.16s;
+	transition-delay: 0.21s;
 	
 }
 #skillsRow {
 	margin-top: 30px;
 	margin-bottom: 50px; 
-
 }
 
 .experience-topics p {
 	color: #2f539c;
-	margin-bottom: 0px;
+	margin-bottom: 1px;
 	background-color: #d1d4d4;
+	border: 4px double #1C6EA4;
+	border-radius: 27px;
 	font-family: "Maven pro", sans-serif;
 	visibility: hidden;
+	font-weight: bold;
+	white-space: nowrap;
+	padding: 0px 5px;
+	overflow:visible;
+	display: inline-block;
 }
 .experience-topics{
 padding: 18px;
-
 }
 
 /*** myself ***/
