@@ -1,10 +1,8 @@
 {
-  "name": "Adhoc Portfolio",
-  "homepage": "https://github.com/developertenzin/adhoc-portfolio",
-  "authors": [
-    "developertenzin <tenzinphuljung7@gmail.com>"
-  ],
-  "description": "This is a portfolio built just for Chicago Digital ;)",
+  "name": "Fernando Sequineli Portfolio",
+  "homepage": "https://fernandosequineli.github.io/portfolio/",
+  
+  "description": "This is a personal portfolio ;)",
   "main": "app.js",
   "license": "MIT",
   "ignore": [
