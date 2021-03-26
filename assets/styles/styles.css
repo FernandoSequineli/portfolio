@@ -50,15 +50,11 @@ h1, h2, h3, h4, h5, h6 {
   -webkit-box-shadow: none;
           box-shadow: none;
 }
-
-
 /*** thin bar ***/
-
 .thin-bar {
 		border-bottom: 5px solid rgb(158, 5, 56);
 }
-
-
+ 
 /*** About Section ***/
 
 #about {
@@ -201,8 +197,7 @@ padding: 18px;
 	margin-top: -4em;
 }
 
-
-/*** Footer Call-to-action ***/
+/*** Footer Call to-action ***/
 #footer-cta {
 	background-color: rgba(8, 80, 116, 0.91);
 	padding: 6em 4em 5.6em;
