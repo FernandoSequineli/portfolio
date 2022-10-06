@@ -9,18 +9,16 @@ const Home = () => {
       name="home"
       className="h-screen w-full bg-gradient-to-b from-black via-black to-gray-800"
     >
-      <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row">
+      <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row pt-10">
         <div className="flex flex-col justify-center h-full">
           <h2 className="text-4xl sm:text-7xl font-bold text-white">
             I'm a Full Stack Developer
           </h2>
           <p className="text-gray-500 py-4 max-w-md">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptate
-            soluta ut rem dolorem ad quos et eos nam pariatur ullam vel,
-            voluptatibus aliquid, fugit alias voluptatem! Aspernatur atque
-            dolorem, minus dolor iusto rem ipsum laborum corporis, quasi
-            eligendi a amet nobis inventore dolorum sunt, omnis dolores
-            repellendus eos non. Id!
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+            Architecto, ullam illum. Velit saepe molestias est assumenda
+            laboriosam qui neque quae perferendis accusamus, corporis dolor.
+            Ipsum cum facilis nisi molestias illum!
           </p>
 
           <div>

@@ -9,38 +9,43 @@ const NavBar = () => {
     {
       id: 1,
       link: "home",
+      offset: 0,
     },
     {
       id: 2,
       link: "about",
+      offset: 0,
     },
     {
       id: 3,
       link: "portfolio",
+      offset: -100,
     },
     {
       id: 4,
       link: "experience",
+      offset: -100,
     },
     {
       id: 5,
       link: "contact",
+      offset: -100,
     },
   ];
 
   return (
     <div className="flex justify-between items-center w-full h-20 px-4 text-white bg-black fixed">
       <div>
-        <h1 className="text-5xl font-signature ml-2">Fernando</h1>
+        <h1 className="text-5xl font-signature ml-2">Fernando Sequineli</h1>
       </div>
 
       <ul className="hidden md:flex">
-        {links.map(({ id, link }) => (
+        {links.map(({ id, link, offset }) => (
           <li
             key={id}
             className="px-4 cursor-pointer capitalize font-medium text-gray-500 hover:scale-105 duration-200"
           >
-            <Link to={link} smooth duration={500}>
+            <Link to={link} offset={offset} smooth duration={500}>
               {link}
             </Link>
           </li>
@@ -64,7 +69,6 @@ const NavBar = () => {
               <Link
                 onClick={() => setNav(!nav)}
                 to={link}
-                offset={200}
                 smooth
                 duration={500}
               >
