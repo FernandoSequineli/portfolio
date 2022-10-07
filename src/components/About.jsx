@@ -14,7 +14,7 @@ const About = () => {
         </div>
 
         <p className="text-xl mt-10">
-          Hi! My name is Fernando and I am a Web Developer with a passion for
+          Hi, My name is Fernando and I am a Web Developer with a passion for
           user experience. I graduated in Computing at NCI - National College of
           Ireland.
         </p>
@@ -30,7 +30,7 @@ const About = () => {
 
         <p className="text-xl">
           When I am not working or studying, I enjoy to take my puppy to walk,
-          whatc some tv show or play video games.
+          whatch some tv show or play video games.
         </p>
       </div>
     </div>
