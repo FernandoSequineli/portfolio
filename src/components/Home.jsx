@@ -1,5 +1,5 @@
 import React from "react";
-import HeroImage from "../assets/heroImage.png";
+import HeroImage from "../assets/heroImage2.png";
 import { MdOutlineKeyboardArrowRight } from "react-icons/md";
 import { Link } from "react-scroll";
 
@@ -12,13 +12,12 @@ const Home = () => {
       <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row pt-10">
         <div className="flex flex-col justify-center h-full">
           <h2 className="text-4xl sm:text-7xl font-bold text-white">
-            I'm a Full Stack Developer
+            I'm a Web Developer
           </h2>
           <p className="text-gray-500 py-4 max-w-md">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-            Architecto, ullam illum. Velit saepe molestias est assumenda
-            laboriosam qui neque quae perferendis accusamus, corporis dolor.
-            Ipsum cum facilis nisi molestias illum!
+            I have 3 years of experience building and desgining web
+            applications. I love to work on web application using technologies
+            like React, Tailwind, Node, MongoDB and Wordpress.
           </p>
 
           <div>

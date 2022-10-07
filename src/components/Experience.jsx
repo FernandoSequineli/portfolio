@@ -4,10 +4,14 @@ import html from "../assets/html.png";
 import css from "../assets/css.png";
 import javascript from "../assets/javascript.png";
 import reactImage from "../assets/react.png";
-import nextjs from "../assets/nextjs.png";
-import graphql from "../assets/graphql.png";
+import mongodb from "../assets/mongodb.png";
+import git from "../assets/git.png";
+import restapi from "../assets/restapi.png";
+import wordpress from "../assets/wordpress.png";
 import github from "../assets/github.png";
 import tailwind from "../assets/tailwind.png";
+import node from "../assets/node.png";
+import scrum from "../assets/scrum.png";
 
 const Experience = () => {
   const techs = [
@@ -43,15 +47,15 @@ const Experience = () => {
     },
     {
       id: 6,
-      src: nextjs,
-      title: "Next JS",
-      style: "shadow-white",
+      src: mongodb,
+      title: "MongoDB",
+      style: "shadow-green-600",
     },
     {
       id: 7,
-      src: graphql,
-      title: "GraphQL",
-      style: "shadow-pink-400",
+      src: git,
+      title: "Git",
+      style: "shadow-orange-800",
     },
     {
       id: 8,
@@ -59,12 +63,36 @@ const Experience = () => {
       title: "GitHub",
       style: "shadow-gray-400",
     },
+    {
+      id: 9,
+      src: wordpress,
+      title: "WordPress",
+      style: "shadow-blue-400",
+    },
+    {
+      id: 10,
+      src: restapi,
+      title: "Rest API",
+      style: "shadow-purple-400",
+    },
+    {
+      id: 11,
+      src: node,
+      title: "Node Js",
+      style: "shadow-green-300",
+    },
+    {
+      id: 12,
+      src: scrum,
+      title: "Agile - Scrum",
+      style: "shadow-red-400",
+    },
   ];
 
   return (
     <div
       name="experience"
-      className="bg-gradient-to-b from-gray-800 to-black w-full md:h-screen"
+      className="bg-gradient-to-b from-gray-800 to-black w-full h-full"
     >
       <div className="max-w-screen-lg pt-10 mx-auto p-4 flex flex-col justify-center w-full h-full text-white">
         <div>

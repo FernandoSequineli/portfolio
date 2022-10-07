@@ -14,23 +14,23 @@ const About = () => {
         </div>
 
         <p className="text-xl mt-10">
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eius,
-          deserunt illum mollitia officiis qui exercitationem perferendis neque
-          quasi a recusandae necessitatibus tempora iusto! Blanditiis error
-          iste, totam fugiat recusandae rerum laborum perferendis molestiae
-          aperiam asperiores nemo. Magni dolor maxime debitis vitae, eaque hic
-          ab mollitia voluptatibus, a nostrum eveniet laborum!
+          Hi! My name is Fernando and I am a Web Developer with a passion for
+          user experience. I graduated in Computing at NCI - National College of
+          Ireland.
         </p>
 
         <br />
 
         <p className="text-xl">
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum
-          pariatur, vel similique sint, nobis aspernatur ut praesentium
-          explicabo ipsam aliquid quasi laboriosam et culpa possimus repudiandae
-          quisquam ullam maiores ab unde. Fugiat odio mollitia nemo alias.
-          Commodi facilis atque nulla vero voluptatem explicabo. Quibusdam,
-          magni quo! Eum cupiditate debitis labore.
+          I am an extremely motivated programmer and have been programming for
+          about 3 years and I'm still learning new technologies every week,
+          mostly focusing on frontend related technologies.
+        </p>
+        <br />
+
+        <p className="text-xl">
+          When I am not working or studying, I enjoy to take my puppy to walk,
+          whatc some tv show or play video games.
         </p>
       </div>
     </div>
