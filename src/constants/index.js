@@ -26,18 +26,22 @@ export const portfolio = [
   {
     id: 1,
     src: arrayDestruct,
+    techs: ["css", "html"],
   },
   {
     id: 2,
     src: reactParallax,
+    techs: ["css", "html"],
   },
   {
     id: 3,
     src: navbar,
+    techs: ["css", "html"],
   },
   {
     id: 4,
     src: reactSmooth,
+    techs: ["css", "html"],
   },
 ];
 
