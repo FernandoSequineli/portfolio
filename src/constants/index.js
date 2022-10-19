@@ -26,23 +26,36 @@ export const portfolio = [
   {
     id: 1,
     src: arrayDestruct,
-    techs: ["css", "html"],
+    codeLink: "https:/...",
+    liveLink: "https:/...",
+    technologies: [
+      "css",
+      "html",
+      "react",
+      "Tailwind",
+      "Bootstrap",
+      "NodeJs",
+      "ExpressJs",
+    ],
   },
   {
     id: 2,
     src: reactParallax,
-    techs: ["css", "html"],
+    codeLink: "https:/...",
+    liveLink: "https:/...",
+    technologies: ["css", "html"],
   },
-  {
-    id: 3,
-    src: navbar,
-    techs: ["css", "html"],
-  },
-  {
-    id: 4,
-    src: reactSmooth,
-    techs: ["css", "html"],
-  },
+
+  // {
+  //   id: 3,
+  //   src: navbar,
+  //   techs: ["css", "html"],
+  // },
+  // {
+  //   id: 4,
+  //   src: reactSmooth,
+  //   techs: ["css", "html"],
+  // },
 ];
 
 export const navLinks = [
