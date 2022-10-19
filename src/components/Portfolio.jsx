@@ -1,5 +1,7 @@
 import React from "react";
 import { portfolio } from "../constants";
+import { IoIosGlobe } from "react-icons/io";
+import { AiOutlineGithub } from "react-icons/ai";
 
 const Portfolio = () => {
   return (
@@ -18,39 +20,39 @@ const Portfolio = () => {
 
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0">
           {portfolio.map((project, index) => (
-            <div
-              key={index}
-              className="shadow-md shadow-gray-600 rounded-lg hover:scale-105 duration-500"
-            >
-              <img src={project.src} alt="" className="rounded-md" />
-              <div className="flex items-center justify-center">
-                <div className="w-[70%] x-6 py-2 m-4 flex flex-start flex-none flex-wrap">
-                  {project.technologies.map((techs, index) => (
-                    <span
-                      key={index}
-                      className="p-2 m-1 rounded-md bg-gradient-to-r from-cyan-500 to-blue-500 font-medium"
-                    >
-                      {techs}
-                    </span>
-                  ))}
-                </div>
-                <div className="w-[30%] x-6 py-2 m-4">
-                  <a
-                    href={project.liveLink}
-                    className="flex justify-between items-center w-full text-white hover:scale-105 duration-500 hover:bg-sky-700"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    Link
-                  </a>
-                </div>
+            <div key={index} className="shadow-md shadow-gray-600 rounded-lg">
+              <img src={project.src} alt={project.alt} className="rounded-md" />
 
-                {/* <button className="w-1/2 px-6 py-2 m-4 duration-200 hover:scale-105">
-                  Demo
-                </button>
-                <button className="w-1/2 px-6 py-2 m-4 duration-200 hover:scale-105">
-                  Code
-                </button> */}
+              <div className="py-2 flex flex-wrap">
+                {project.technologies.map((techs, index) => (
+                  <span
+                    key={index}
+                    className="p-2 m-1 cursor-default rounded-md bg-gradient-to-r from-cyan-500 to-blue-500 font-medium"
+                  >
+                    {techs}
+                  </span>
+                ))}
+              </div>
+
+              <div className="py-2 flex justify-around ">
+                <a
+                  href={project.liveLink}
+                  className="text-white w-[48%] text-sm inline-flex items-center text-center bg-slate-700 rounded-lg p-2 hover:scale-105 duration-500 hover:bg-sky-700"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <IoIosGlobe className="pr-1" size="20px" />
+                  Project Online
+                </a>
+                <a
+                  href={project.codeLink}
+                  className="text-white w-[48%] text-sm inline-flex items-center text-center bg-slate-700 rounded-lg p-2 hover:scale-105 duration-500 hover:bg-sky-700"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <AiOutlineGithub className="pr-1" size="20px" />
+                  Code Link
+                </a>
               </div>
             </div>
           ))}

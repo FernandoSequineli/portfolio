@@ -1,5 +1,5 @@
 // Portfolio imports
-import { arrayDestruct, navbar, reactParallax, reactSmooth } from "../assets";
+import { arrayDestruct, reactParallax } from "../assets";
 
 // SocialLinks imports
 import { FaGithub, FaLinkedin } from "react-icons/fa";
@@ -26,36 +26,26 @@ export const portfolio = [
   {
     id: 1,
     src: arrayDestruct,
+    alt: "/",
+    codeLink: "https:/...",
+    liveLink: "https:/...",
+    technologies: ["css", "html", "react"],
+  },
+  {
+    id: 2,
+    src: reactParallax,
+    alt: "/",
     codeLink: "https:/...",
     liveLink: "https:/...",
     technologies: [
       "css",
-      "html",
-      "react",
+      "HTML",
       "Tailwind",
       "Bootstrap",
       "NodeJs",
       "ExpressJs",
     ],
   },
-  {
-    id: 2,
-    src: reactParallax,
-    codeLink: "https:/...",
-    liveLink: "https:/...",
-    technologies: ["css", "html"],
-  },
-
-  // {
-  //   id: 3,
-  //   src: navbar,
-  //   techs: ["css", "html"],
-  // },
-  // {
-  //   id: 4,
-  //   src: reactSmooth,
-  //   techs: ["css", "html"],
-  // },
 ];
 
 export const navLinks = [
