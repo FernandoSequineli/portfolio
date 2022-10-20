@@ -1,12 +1,11 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.15b25975.css",
-    "main.js": "/portfolio/static/js/main.c19bb2ed.js",
+    "main.css": "/portfolio/static/css/main.e2487feb.css",
+    "main.js": "/portfolio/static/js/main.688b6db6.js",
     "static/media/heroImage.png": "/portfolio/static/media/heroImage.54e5e10c87ad3730ab07.png",
-    "static/media/reactParallax.jpg": "/portfolio/static/media/reactParallax.6f0d02a0def925fc9d7f.jpg",
-    "static/media/reactSmooth.jpg": "/portfolio/static/media/reactSmooth.a2ffb0a8d6db6a651603.jpg",
-    "static/media/arrayDestruct.jpg": "/portfolio/static/media/arrayDestruct.84671dfd109d4de76bae.jpg",
-    "static/media/navbar.jpg": "/portfolio/static/media/navbar.7ce4ddd4bd6a2fa48cd5.jpg",
+    "static/media/CloudManagement.jpg": "/portfolio/static/media/CloudManagement.8095028f8cb975ee2c0c.jpg",
+    "static/media/hooBank.jpg": "/portfolio/static/media/hooBank.0572cf6f045f4be7267d.jpg",
+    "static/media/monsterRolodex.jpg": "/portfolio/static/media/monsterRolodex.2e21389a27e8999458ca.jpg",
     "static/media/react.png": "/portfolio/static/media/react.0cf951a69d8e58f83f9d.png",
     "static/media/node.png": "/portfolio/static/media/node.952a9ea986dcfa5229ad.png",
     "static/media/github.png": "/portfolio/static/media/github.3b9e32903aa89111875d.png",
@@ -17,11 +16,11 @@
     "static/media/javascript.png": "/portfolio/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
     "static/media/mongodb.png": "/portfolio/static/media/mongodb.10133c7f82577c633440.png",
     "index.html": "/portfolio/index.html",
-    "main.15b25975.css.map": "/portfolio/static/css/main.15b25975.css.map",
-    "main.c19bb2ed.js.map": "/portfolio/static/js/main.c19bb2ed.js.map"
+    "main.e2487feb.css.map": "/portfolio/static/css/main.e2487feb.css.map",
+    "main.688b6db6.js.map": "/portfolio/static/js/main.688b6db6.js.map"
   },
   "entrypoints": [
-    "static/css/main.15b25975.css",
-    "static/js/main.c19bb2ed.js"
+    "static/css/main.e2487feb.css",
+    "static/js/main.688b6db6.js"
   ]
 }
