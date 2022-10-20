@@ -103,11 +103,10 @@ export const socialLinks = [
     id: 3,
     child: (
       <>
-        Whatsapp <BsWhatsapp size={30} />
+        WhatsApp <BsWhatsapp size={30} />
       </>
     ),
     href: "https://wa.me/+353896030235",
-    style: "rounded-br-md",
   },
   {
     id: 4,
@@ -117,7 +116,7 @@ export const socialLinks = [
       </>
     ),
     href: "/resume.pdf",
-    style: "rounded-br-md",
+
     download: true,
   },
   {
@@ -128,6 +127,7 @@ export const socialLinks = [
       </>
     ),
     href: "mailto:sequineli.fernando@gmail.com",
+    style: "rounded-br-md",
   },
 ];
 
