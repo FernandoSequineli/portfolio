@@ -4,7 +4,7 @@ import { monsterRolodex, hooBank, CloudManagement } from "../assets";
 // SocialLinks imports
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
-import { BsFillPersonLinesFill } from "react-icons/bs";
+import { BsFillPersonLinesFill, BsWhatsapp } from "react-icons/bs";
 
 //Experience imports
 import {
@@ -103,10 +103,11 @@ export const socialLinks = [
     id: 3,
     child: (
       <>
-        Mail <HiOutlineMail size={30} />
+        Whatsapp <BsWhatsapp size={30} />
       </>
     ),
-    href: "mailto:sequineli.fernando@gmail.com",
+    href: "https://wa.me/+353896030235",
+    style: "rounded-br-md",
   },
   {
     id: 4,
@@ -117,8 +118,16 @@ export const socialLinks = [
     ),
     href: "/resume.pdf",
     style: "rounded-br-md",
-    // download: true,
-    target: "_blank",
+    download: true,
+  },
+  {
+    id: 5,
+    child: (
+      <>
+        Mail <HiOutlineMail size={30} />
+      </>
+    ),
+    href: "mailto:sequineli.fernando@gmail.com",
   },
 ];
 
