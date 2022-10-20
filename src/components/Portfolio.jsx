@@ -23,18 +23,18 @@ const Portfolio = () => {
             <div key={index} className="shadow-md shadow-gray-600 rounded-lg">
               <img src={project.src} alt={project.alt} className="rounded-md" />
 
-              <div className="py-2 flex flex-wrap">
+              <div className="py-2 flex flex-wrap h-[100px]">
                 {project.technologies.map((techs, index) => (
                   <span
                     key={index}
-                    className="p-2 m-1 cursor-default rounded-md bg-gradient-to-r from-cyan-500 to-blue-500 font-medium"
+                    className="p-2 m-1 h-10 cursor-default rounded-md bg-gradient-to-r from-cyan-500 to-blue-500 font-medium"
                   >
                     {techs}
                   </span>
                 ))}
               </div>
 
-              <div className="py-2 flex justify-around ">
+              <div className="py-2 flex justify-around">
                 <a
                   href={project.liveLink}
                   className="text-white w-[48%] text-sm inline-flex items-center text-center bg-slate-700 rounded-lg p-2 hover:scale-105 duration-500 hover:bg-sky-700"

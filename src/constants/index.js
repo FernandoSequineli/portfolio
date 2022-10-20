@@ -1,5 +1,5 @@
 // Portfolio imports
-import { arrayDestruct, reactParallax } from "../assets";
+import { monsterRolodex, hooBank, CloudManagement } from "../assets";
 
 // SocialLinks imports
 import { FaGithub, FaLinkedin } from "react-icons/fa";
@@ -25,26 +25,29 @@ import {
 export const portfolio = [
   {
     id: 1,
-    src: arrayDestruct,
-    alt: "/",
-    codeLink: "https:/...",
-    liveLink: "https:/...",
-    technologies: ["css", "html", "react"],
+    src: CloudManagement,
+    alt: "CloudManagement",
+    codeLink:
+      "https://github.com/FernandoSequineli/react-tailwind-cloud-management.",
+    liveLink:
+      "https://fernandosequineli.github.io/react-tailwind-cloud-management/",
+    technologies: ["HTML", "CSS", "JavaScript", "Tailwind"],
   },
   {
     id: 2,
-    src: reactParallax,
-    alt: "/",
-    codeLink: "https:/...",
-    liveLink: "https:/...",
-    technologies: [
-      "css",
-      "HTML",
-      "Tailwind",
-      "Bootstrap",
-      "NodeJs",
-      "ExpressJs",
-    ],
+    src: hooBank,
+    alt: "HooBank",
+    codeLink: "https://github.com/FernandoSequineli/hoo-bank-react-tailwind",
+    liveLink: "https://fernandosequineli.github.io/hoo-bank-react-tailwind/",
+    technologies: ["HTML", "CSS", "JavaScript", "Tailwind"],
+  },
+  {
+    id: 3,
+    src: monsterRolodex,
+    alt: "monsterRolodex",
+    codeLink: "https://github.com/FernandoSequineli/monsters-rolodex",
+    liveLink: "https://fernandosequineli.github.io/monsters-rolodex/",
+    technologies: ["HTML", "CSS", "JavaScript", "RestAPI"],
   },
 ];
 

@@ -1,3 +1,4 @@
+//Techs
 import html from "../assets/experience/html.png";
 import css from "../assets/experience/css.png";
 import javascript from "../assets/experience/javascript.png";
@@ -11,10 +12,10 @@ import tailwind from "../assets/experience/tailwind.png";
 import node from "../assets/experience/node.png";
 import scrum from "../assets/experience/scrum.png";
 
-import arrayDestruct from "../assets/portfolio/arrayDestruct.jpg";
-import navbar from "../assets/portfolio/navbar.jpg";
-import reactParallax from "../assets/portfolio/reactParallax.jpg";
-import reactSmooth from "../assets/portfolio/reactSmooth.jpg";
+//Portfolio
+import monsterRolodex from "../assets/portfolio/monsterRolodex.jpg";
+import CloudManagement from "../assets/portfolio/CloudManagement.jpg";
+import hooBank from "../assets/portfolio/hooBank.jpg";
 
 export {
   html,
@@ -29,8 +30,7 @@ export {
   tailwind,
   node,
   scrum,
-  arrayDestruct,
-  navbar,
-  reactParallax,
-  reactSmooth,
+  monsterRolodex,
+  CloudManagement,
+  hooBank,
 };
