@@ -117,7 +117,8 @@ export const socialLinks = [
     ),
     href: "/resume.pdf",
     style: "rounded-br-md",
-    download: true,
+    // download: true,
+    target: "_blank",
   },
 ];
 

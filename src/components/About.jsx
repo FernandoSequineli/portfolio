@@ -15,8 +15,8 @@ const About = () => {
 
         <p className="text-xl mt-10">
           Hi, My name is Fernando and I am a Web Developer with a passion for
-          user experience. I graduated in Computing at NCI - National College of
-          Ireland.
+          user experience. I'm a Bachelor of Science in Computing from National
+          College of Ireland.
         </p>
 
         <br />
@@ -29,8 +29,8 @@ const About = () => {
         <br />
 
         <p className="text-xl">
-          When I am not working or studying, I enjoy to take my puppy to walk,
-          whatch some tv show or play video games.
+          When I am not working or studying, I enjoy to take my dog for a walk,
+          whatch tv shows or play video games.
         </p>
       </div>
     </div>
