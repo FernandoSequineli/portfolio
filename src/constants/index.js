@@ -28,7 +28,7 @@ export const portfolio = [
     src: CloudManagement,
     alt: "CloudManagement",
     codeLink:
-      "https://github.com/FernandoSequineli/react-tailwind-cloud-management.",
+      "https://github.com/FernandoSequineli/react-tailwind-cloud-management",
     liveLink:
       "https://fernandosequineli.github.io/react-tailwind-cloud-management/",
     technologies: ["HTML", "CSS", "JavaScript", "Tailwind"],
