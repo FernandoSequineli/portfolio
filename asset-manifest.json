@@ -1,10 +1,11 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.16575f86.css",
-    "main.js": "/portfolio/static/js/main.3b558d77.js",
+    "main.css": "/portfolio/static/css/main.6fef1540.css",
+    "main.js": "/portfolio/static/js/main.a66c6ec2.js",
     "static/media/heroImage.png": "/portfolio/static/media/heroImage.54e5e10c87ad3730ab07.png",
     "static/media/CloudManagement.jpg": "/portfolio/static/media/CloudManagement.8095028f8cb975ee2c0c.jpg",
     "static/media/hooBank.jpg": "/portfolio/static/media/hooBank.0572cf6f045f4be7267d.jpg",
+    "static/media/manageApp.jpg": "/portfolio/static/media/manageApp.b2b69aa6a0ac6f3d05c7.jpg",
     "static/media/monsterRolodex.jpg": "/portfolio/static/media/monsterRolodex.2e21389a27e8999458ca.jpg",
     "static/media/react.png": "/portfolio/static/media/react.0cf951a69d8e58f83f9d.png",
     "static/media/node.png": "/portfolio/static/media/node.952a9ea986dcfa5229ad.png",
@@ -16,11 +17,11 @@
     "static/media/javascript.png": "/portfolio/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
     "static/media/mongodb.png": "/portfolio/static/media/mongodb.10133c7f82577c633440.png",
     "index.html": "/portfolio/index.html",
-    "main.16575f86.css.map": "/portfolio/static/css/main.16575f86.css.map",
-    "main.3b558d77.js.map": "/portfolio/static/js/main.3b558d77.js.map"
+    "main.6fef1540.css.map": "/portfolio/static/css/main.6fef1540.css.map",
+    "main.a66c6ec2.js.map": "/portfolio/static/js/main.a66c6ec2.js.map"
   },
   "entrypoints": [
-    "static/css/main.16575f86.css",
-    "static/js/main.3b558d77.js"
+    "static/css/main.6fef1540.css",
+    "static/js/main.a66c6ec2.js"
   ]
 }
