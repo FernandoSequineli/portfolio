@@ -16,6 +16,7 @@ import scrum from "../assets/experience/scrum.png";
 import monsterRolodex from "../assets/portfolio/monsterRolodex.jpg";
 import CloudManagement from "../assets/portfolio/CloudManagement.jpg";
 import hooBank from "../assets/portfolio/hooBank.jpg";
+import manageApp from "../assets/portfolio/manageApp.jpg";
 
 export {
   html,
@@ -33,4 +34,5 @@ export {
   monsterRolodex,
   CloudManagement,
   hooBank,
+  manageApp,
 };
