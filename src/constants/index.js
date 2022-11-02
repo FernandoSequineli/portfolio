@@ -6,6 +6,7 @@ import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
 import { BsFillPersonLinesFill, BsWhatsapp } from "react-icons/bs";
 
+// import resume from "../../public/resume.pdf"
 //Experience imports
 import {
   html,
@@ -123,7 +124,7 @@ export const socialLinks = [
         Resume <BsFillPersonLinesFill size={30} />
       </>
     ),
-    href: "/resume.pdf",
+    href: "resume.pdf",
 
     download: true,
   },
