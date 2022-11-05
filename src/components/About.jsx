@@ -29,8 +29,8 @@ const About = () => {
         <br />
 
         <p className="text-xl">
-          When I am not working or studying, I enjoy to take my dog for a walk,
-          whatch tv shows or play video games.
+          When I am not working or studying, I enjoy taking my dog for a walk,
+          watch tv shows or play video games.
         </p>
       </div>
     </div>
