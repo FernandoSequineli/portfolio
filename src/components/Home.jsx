@@ -17,7 +17,7 @@ const Home = () => {
           <p className="text-gray-500 py-4 max-w-md">
             I have 3 years of experience building and designing web
             applications. I love to work on web applications using technologies
-            such as React, Tailwind, Node, MongoDB and Wordpress.
+            such as HTML, CSS, React, Tailwind, Bootstrap, and Wordpress.
           </p>
 
           <div>
