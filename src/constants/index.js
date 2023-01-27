@@ -124,7 +124,7 @@ export const socialLinks = [
         Resume <BsFillPersonLinesFill size={30} />
       </>
     ),
-    href: "resume.pdf",
+    href: "https://drive.google.com/file/d/13LhdVzVpkTOOFLP357EYdlF5uIDg-qyk/view",
 
     download: true,
   },
