@@ -15,9 +15,11 @@ const Home = () => {
             I'm a Web Developer
           </h2>
           <p className="text-gray-500 py-4 max-w-md">
-            I have 3 years of experience building and designing web
-            applications. I love to work on web applications using technologies
-            such as HTML, CSS, React, Tailwind, Bootstrap, and Wordpress.
+            I am a web developer with 3 years of experience in designing and
+            building web applications. My skillset includes proficiency in
+            technologies such as HTML, CSS, React, Tailwind, Bootstrap, and
+            Wordpress. I have a passion for creating visually appealing and
+            user-friendly web experiences.
           </p>
 
           <div>

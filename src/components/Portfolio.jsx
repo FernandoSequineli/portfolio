@@ -15,7 +15,11 @@ const Portfolio = () => {
             Portfolio
           </p>
 
-          <p className="py-6">Check out some of my work right here</p>
+          <p className="py-6">
+            Check out my portfolio to see some of my web development projects
+            that showcases my skills in creating visually appealing and
+            user-friendly websites.
+          </p>
         </div>
 
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0">

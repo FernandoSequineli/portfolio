@@ -13,28 +13,31 @@ const About = () => {
           </p>
         </div>
 
-        <p className="text-xl mt-10">Hey, There!</p>
-
         <br />
-        <p className="text-xl">
-          My name is Fernando and I am a Web Developer with a passion for user
-          experience. I am a graduate with a BSc in Computing from National
-          College of Ireland. I have always been passionate about technology.
+        <p className="text-xl mt-10">
+          Hello! My name is Fernando and I am a web developer with a strong
+          focus on user experience. I have a BSc in Computing from the National
+          College of Ireland and a passion for technology. With 3 years of
+          experience in programming and a constant drive to learn new
+          technologies, I specialize in front-end development.
         </p>
 
+        <br />
+
+        <p className="text-xl">
+          During my leisure activities, I enjoy being surrounded by nature,
+          family, and friends. I also enjoy taking my dog for a walk, watching
+          some TV shows or playing video games. These activities allow me to
+          disconnect from my work and recharge my batteries.
+        </p>
         <br />
 
         <p className="text-xl">
           I am an extremely motivated programmer and have been programming for
           about 3 years and I'm still learning new technologies every week,
-          mostly focusing on frontend related technologies.
-        </p>
-        <br />
-
-        <p className="text-xl">
-          During my leisure activities, I enjoy being surrounded by nature,
-          family, and friends. I also enjoy taking my dog for a walk, whatch
-          some tv show or play video games.
+          mostly focusing on frontend related technologies. Overall, I am a
+          dedicated and motivated developer who is always looking to improve my
+          skills and create the best user experiences possible.
         </p>
       </div>
     </div>

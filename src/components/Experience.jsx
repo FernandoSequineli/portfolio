@@ -13,8 +13,9 @@ const Experience = () => {
             Experience
           </p>
           <p className="py-6">
-            You can find the list of my top skills bellow. I'm also open to
-            learn more frontend related frameworks, libraries, languages, etc!
+            You can find the list of my top skills below. I am always open to
+            learning new technologies and expanding my knowledge in order to
+            stay current in my field.
           </p>
         </div>
 
