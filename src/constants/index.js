@@ -1,5 +1,11 @@
 // Portfolio imports
-import { monsterRolodex, hooBank, CloudManagement, manageApp } from "../assets";
+import {
+  monsterRolodex,
+  hooBank,
+  CloudManagement,
+  manageApp,
+  colorSchemeGenerator,
+} from "../assets";
 
 // SocialLinks imports
 import { FaGithub, FaLinkedin } from "react-icons/fa";
@@ -57,6 +63,14 @@ export const portfolio = [
     codeLink: "https://github.com/FernandoSequineli/monsters-rolodex",
     liveLink: "https://fernandosequineli.github.io/monsters-rolodex/",
     technologies: ["HTML", "CSS", "JavaScript", "React", "RestAPI"],
+  },
+  {
+    id: 5,
+    src: colorSchemeGenerator,
+    alt: "colorSchemeGenerator",
+    codeLink: "https://github.com/FernandoSequineli/color-scheme-generator",
+    liveLink: "https://fernandosequineli.github.io/color-scheme-generator/",
+    technologies: ["HTML", "CSS", "JavaScript", "RestAPI"],
   },
 ];
 

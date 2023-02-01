@@ -17,6 +17,7 @@ import monsterRolodex from "../assets/portfolio/monsterRolodex.jpg";
 import CloudManagement from "../assets/portfolio/CloudManagement.jpg";
 import hooBank from "../assets/portfolio/hooBank.jpg";
 import manageApp from "../assets/portfolio/manageApp.jpg";
+import colorSchemeGenerator from "../assets/portfolio/color-scheme-generator.jpeg";
 
 export {
   html,
@@ -35,4 +36,5 @@ export {
   CloudManagement,
   hooBank,
   manageApp,
+  colorSchemeGenerator,
 };
