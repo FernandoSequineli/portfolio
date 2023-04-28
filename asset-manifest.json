@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.b7f0940b.css",
-    "main.js": "/portfolio/static/js/main.1acbe4b8.js",
+    "main.js": "/portfolio/static/js/main.24285d85.js",
     "static/media/heroImage.png": "/portfolio/static/media/heroImage.54e5e10c87ad3730ab07.png",
     "static/media/CloudManagement.jpg": "/portfolio/static/media/CloudManagement.8095028f8cb975ee2c0c.jpg",
     "static/media/hooBank.jpg": "/portfolio/static/media/hooBank.0572cf6f045f4be7267d.jpg",
@@ -19,10 +19,10 @@
     "static/media/mongodb.png": "/portfolio/static/media/mongodb.10133c7f82577c633440.png",
     "index.html": "/portfolio/index.html",
     "main.b7f0940b.css.map": "/portfolio/static/css/main.b7f0940b.css.map",
-    "main.1acbe4b8.js.map": "/portfolio/static/js/main.1acbe4b8.js.map"
+    "main.24285d85.js.map": "/portfolio/static/js/main.24285d85.js.map"
   },
   "entrypoints": [
     "static/css/main.b7f0940b.css",
-    "static/js/main.1acbe4b8.js"
+    "static/js/main.24285d85.js"
   ]
 }
