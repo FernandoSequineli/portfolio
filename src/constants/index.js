@@ -138,7 +138,7 @@ export const socialLinks = [
         Resume <BsFillPersonLinesFill size={30} />
       </>
     ),
-    href: "https://drive.google.com/file/d/13LhdVzVpkTOOFLP357EYdlF5uIDg-qyk/view",
+    href: "https://drive.google.com/file/d/15yhrxlQcV5NfJpjwVFYBVnlHaAss4oGj/view?usp=sharing",
 
     download: true,
   },
