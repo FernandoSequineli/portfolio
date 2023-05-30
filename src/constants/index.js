@@ -1,6 +1,5 @@
 // Portfolio imports
 import {
-  monsterRolodex,
   hooBank,
   CloudManagement,
   manageApp,
@@ -38,7 +37,7 @@ export const portfolio = [
       "https://github.com/FernandoSequineli/react-tailwind-cloud-management",
     liveLink:
       "https://fernandosequineli.github.io/react-tailwind-cloud-management/",
-    technologies: ["HTML", "CSS", "JavaScript", "React", "Tailwind"],
+    technologies: ["HTML", "CSS", "JavaScript", "React", "Tailwind", "Figma"],
   },
   {
     id: 2,
@@ -46,7 +45,7 @@ export const portfolio = [
     alt: "HooBank",
     codeLink: "https://github.com/FernandoSequineli/hoo-bank-react-tailwind",
     liveLink: "https://fernandosequineli.github.io/hoo-bank-react-tailwind/",
-    technologies: ["HTML", "CSS", "JavaScript", "React", "Tailwind"],
+    technologies: ["HTML", "CSS", "JavaScript", "React", "Tailwind", "Figma"],
   },
   {
     id: 3,
@@ -54,18 +53,10 @@ export const portfolio = [
     alt: "ManageApp",
     codeLink: "https://github.com/FernandoSequineli/react-tailwind-manage-app",
     liveLink: "https://fernandosequineli.github.io/react-tailwind-manage-app/",
-    technologies: ["HTML", "CSS", "JavaScript", "React", "Tailwind"],
+    technologies: ["HTML", "CSS", "JavaScript", "React", "Tailwind", "Figma"],
   },
   {
     id: 4,
-    src: monsterRolodex,
-    alt: "monsterRolodex",
-    codeLink: "https://github.com/FernandoSequineli/monsters-rolodex",
-    liveLink: "https://fernandosequineli.github.io/monsters-rolodex/",
-    technologies: ["HTML", "CSS", "JavaScript", "React", "RestAPI"],
-  },
-  {
-    id: 5,
     src: colorSchemeGenerator,
     alt: "colorSchemeGenerator",
     codeLink: "https://github.com/FernandoSequineli/color-scheme-generator",
